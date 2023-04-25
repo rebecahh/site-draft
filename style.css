@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('futura_medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Futura', sans-serif;
+    background-color: #F1DBBF;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #698269;
+    color: #fff;
+    padding: 16px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 16px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #AA5656;
+  }
+  
+  section ul {
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+  
+  section li {
+    /* font-size: 18px; */
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  #hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 128px;
+  }
+  
+  #hero h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    color:#698269;
+  }
+  
+  #hero .button {
+    background-color: #fff;
+    color: #698269;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  #hero .button:hover {
+    background-color: #B99B6B;
+    color: #fff;
+  }
+  
+  #features {
+    border-top: 1px solid #B99B6B;
+    border-bottom: 1px solid #B99B6B;
+    padding: 32px 0;
+  }
+  
+  /* #features li:before {
+    content: '\2022';
+    margin-right: 8px;
+    color: #AA5656;
+  } */
+  
+  #signup {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  
+  #signup h2 {
+    margin-bottom: 16px;
+    color: #698269;
+  }
+  
+  #signup input {
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    width: 240px;
+    font-size: 18px;
+    margin-right: 8px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  #signup button {
+    background-color: #AA5656;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  
+  #signup button:hover {
+    background-color: #B99B6B;
+  }
+  
