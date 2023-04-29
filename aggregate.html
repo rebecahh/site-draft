@@ -1,38 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Metaprint</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html>
 
-    <h1>Metaprint</h1>
-    <h3>Searching for a way to do your part in climate change mitigation? Start here</h3>
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="aggregate.html">Aggregate</a>
-      <!-- <a href="pagenotfound.html">3</a> -->
-      <!-- <a href="both.html">4</a> -->
-      <!-- <a href="tracker.html">5</a> -->
+<head>
+  <title>Metaprint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+    <div class="header_selected">
+      <nav>
+        <ul>
+          <li><a href="aggregate.html">Aggregate</a></li>
+        </ul>
+      </nav>
     </div>
+    <nav>
+      <ul>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="content">
-      <h2>Introduction</h2>
-      <p></p>
-      <img src=""
-      alt="couple walking"
-      width= "10%">
-      
-    </div>
+  <main>
+    <h1>Welcome to Metaprint!</h1>
+    <section id="row">
+      <div class="profile_container">
+        <h2>Metaprint User Emissions</h2>
+        <h3>Your Emissions: *****kg</h3>
+        <h3>Total Emissions: *****kg</h3>
+      </div>
+      <div class="profile_container">
+        <h2>Company Emissions</h2>
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Emissions (kg)</th>
+          </tr>
+          <tr>
+            <td>Samsung</td>
+            <td>20,170,000,000</td>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>16,180,000,000</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>6,621,312,000</td>
+          </tr>
+          <tr>
+            <td>Sony</td>
+            <td>1,195,000,000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>1,058,446,000</td>
+          </tr>
+          <tr>
+            <td>Tesla</td>
+            <td>588,000,000</td>
+          </tr>
+          <tr>
+            <td>Dell</td>
+            <td>401,100,000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
 
-    <div class="content">
-      <p>With so many __ it can be hard to know where to start.</p>
-      <img src=""
-      alt="phone app for trails"
-      width= "30%">
-      <p><b>Metaprint</b> is your __</p>
-    </div>
+    <section id="row">
+      <div class="profile_container">
+        <h2>Daily Emission Breakdown (Past Week):</h2>
+        <h3>***kg</h3>
+        <!--not 100% sure if this is the correct button type-->
+        <!--need to change form action-->
+        <form action="#">
+          <button type="submit" class="button">Today</button>
+          <button type="submit" class="button">Past Week</button>
+        </form>
+      </div>
+      <div class="profile_container">
+        <h2>Total Emissions From Range:</h2>
+        <p>From</p>
+        <input type="date" id="date" name="date">
+        <p>To</p>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <form action="#">
+          <button type="submit" class="Submit">Submit</button>
+        </form>
+        <br><br>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
 
-  </body>
 </html>

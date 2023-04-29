@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Metaprint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <div class="header_selected">
+      <nav>
+        <ul>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="aggregate.html">Aggregate</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to Metaprint!</h1>
+    <section id="column">
+      <div class="profile_container">
+        <h2>View Activities</h2>
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Activity</th>
+            <th>Company</th>
+            <th>Emissions</th>
+            <th>Amount</th>
+          </tr>
+          <tr>*sample data</tr>
+          <tr>
+            <td>*Mon, 24 Apr 2023</td>
+            <td>*Driving, sedan (per miles)</td>
+            <td>*Ford</td>
+            <td>*0.45 kg</td>
+            <td>*55</td>
+          </tr>
+
+
+        </table>
+
+      </div>
+      <div class="profile_container">
+        <h2>Input Activities</h2>
+        <!-- <form action="#"> -->
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <label for="activity">Activity:</label>
+        <br>
+        <select name="activity" id="activity">
+          <option value="select">--Select an activity--</option>
+          <option value="activity1">Activity 1</option>
+          <option value="activity2">Activity 2</option>
+        </select>
+        <br><br>
+        <label for="company">Company (optional):</label>
+        <br>
+        <input type="email" placeholder="Company Name">
+        <br><br>
+        <label for="emissions">Emissions:</label>
+        <br>
+        <input type="email" placeholder="">
+        <br><br>
+        <label for="amount">Amount:</label>
+        <br>
+        <input type="amount" placeholder="">
+        <br><br>
+        <br>
+        <input type="submit" value="Manual Activity Input">
+        <input type="submit" value="Preset Companies">
+        <input type="submit" value="Submit">
+        <br><br>
+        <!-- </form> -->
+      </div>
+    </section>
+
+    <section id="column">
+      <div class="profile_container">
+        <h2>Tips and Tricks</h2>
+        <ol>
+          <li>We see that you have the following activity on your list: ******** <br> Here's a tip for you: *****</li>
+          <li>We see that you have the following activity on your list: ******** <br> Here's a tip for you: *****</li>
+        </ol>
+      </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>
